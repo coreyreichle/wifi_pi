@@ -42,7 +42,7 @@ cd /home/pi
 echo "Getting files:"
 
 echo "Installing required programs via apt..."
-apt-get -y install wget hostapd isc-dhcp-server &>/dev/null
+apt-get -y install wget hostapd isc-dhcp-server unzip &>/dev/null
 echo "Downloading hostapd binary..."
 wget -O /home/pi/adafruit_hostapd.zip http://adafruit-download.s3.amazonaws.com/adafruit_hostapd_14128.zip
 
